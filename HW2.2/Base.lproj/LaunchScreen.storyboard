@@ -27,18 +27,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nextpng.com" translatesAutoresizingMaskIntoConstraints="NO" id="XNb-Xm-DhN">
                                 <rect key="frame" x="84" y="204.66666666666666" width="246" height="486.66666666666674"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CDF-1e-7lP">
-                                <rect key="frame" x="161" y="816" width="92" height="46"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="fLz-yc-NkD">
+                                <rect key="frame" x="166.33333333333334" y="803.66666666666663" width="81.333333333333343" height="42.333333333333371"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftBook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sk-S9-Bcg">
-                                        <rect key="frame" x="0.33333333333334281" y="0.0" width="91.666666666666671" height="19"/>
-                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftBook" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1sk-S9-Bcg">
+                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="17.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NC-Zb-B7t">
-                                        <rect key="frame" x="26.333333333333339" y="27" width="39.666666666666657" height="19"/>
-                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.15" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ix4-op-jSF">
+                                        <rect key="frame" x="22.666666666666661" y="24.666666666666742" width="36.333333333333343" height="17.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -48,14 +48,14 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="i6r-r7-3aw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="7YS-fy-G2g"/>
-                            <constraint firstItem="CDF-1e-7lP" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="161" id="8uX-H8-DPG"/>
                             <constraint firstItem="XNb-Xm-DhN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="D4i-a9-5AN"/>
                             <constraint firstItem="XNb-Xm-DhN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IwM-IX-hLK"/>
-                            <constraint firstItem="CDF-1e-7lP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LAG-XJ-2AM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fLz-yc-NkD" secondAttribute="bottom" constant="16" id="PdU-VU-dMU"/>
                             <constraint firstItem="XNb-Xm-DhN" firstAttribute="width" secondItem="i6r-r7-3aw" secondAttribute="width" multiplier="0.817276" id="R9t-c5-6DS"/>
-                            <constraint firstItem="CDF-1e-7lP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bVT-9f-WfB"/>
                             <constraint firstItem="XNb-Xm-DhN" firstAttribute="height" secondItem="i6r-r7-3aw" secondAttribute="height" multiplier="3.7438" id="jhO-vu-2hJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i6r-r7-3aw" secondAttribute="trailing" constant="56" id="mPF-WZ-wfb"/>
+                            <constraint firstItem="fLz-yc-NkD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="p21-rm-QqF"/>
+                            <constraint firstItem="fLz-yc-NkD" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="tE4-uQ-KEb"/>
                             <constraint firstItem="i6r-r7-3aw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="tYe-lV-wnl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
