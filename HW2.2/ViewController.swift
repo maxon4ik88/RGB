@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    // MARK: Defining outlet-elements
     @IBOutlet var coloredView: UIView!
+    
     @IBOutlet var redCounterView: UILabel!
     @IBOutlet var blueCounterView: UILabel!
     @IBOutlet var greenCounterView: UILabel!
+    
     @IBOutlet var redSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
     @IBOutlet var greenSlider: UISlider!
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+    // MARK: Defining slider functions
     @IBAction func redSliderAction() {
         redCounterView.text = String(Int(redSlider.value * 100))
         coloredView.backgroundColor = .init(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
@@ -40,6 +42,7 @@ class ViewController: UIViewController {
         coloredView.backgroundColor = .init(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
     }
     
+    // MARK: Default parameters to DidLoad
     private func forLoad() {
         redSlider.value = 0
         blueSlider.value = 0
@@ -51,7 +54,7 @@ class ViewController: UIViewController {
     }
     
 }
-
+// MARK: Defining short properties of '*Slider.value'
 extension ViewController {
     var redValue: CGFloat { CGFloat(redSlider.value) }
     var blueValue: CGFloat { CGFloat(blueSlider.value) }
